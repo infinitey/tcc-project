@@ -16,6 +16,10 @@
     "assetExts": ["ttf", "mp4"]
   },
   "ios": {
+    "bundleIdentifier": "com.DigitalForge.tcc",
     "supportsTablet": true
-  }
+  },
+  "android": {
+    "package": "com.DigitalForge.tcc"
+  },
 }

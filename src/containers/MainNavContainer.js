@@ -4,6 +4,8 @@ import { connect } from 'react-redux'
 
 import {push_main, pop_main } from '../actions/navigation'
 
+import { strings } from '../resources/strings';
+
 const {
   CardStack: NavigationCardStack,
 } = NavigationExperimental
@@ -26,6 +28,9 @@ export default class MainNavContainer extends Component {
     return (
       <View style={styles.container}>
         <Text>Home Nav Container</Text>
+        <Text>
+          {strings.hello_world}
+        </Text>
       </View>
     );
   }
